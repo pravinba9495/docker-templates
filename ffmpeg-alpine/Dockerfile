@@ -8,4 +8,4 @@ FROM alpine:latest
 RUN apk add ffmpeg
 
 # Add basic linux packages
-RUN apk add bash tree vim htop
+RUN apk add bash tree vim htop nodejs
